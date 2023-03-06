@@ -1,0 +1,15 @@
+// ***************************************************
+// ******************** FUNCTIONS ********************
+// ***************************************************
+
+@function em($letterSpacingPx, $fontSize) {
+  @return ($letterSpacingPx / $fontSize) * 1em;
+}
+
+@function rem($pixels, $basicValue) {
+  @return ($pixels / $basicValue) * 1rem;
+}
+
+@function lineHeight($lineHeightPx, $fontSize) {
+  @return ($lineHeightPx / $fontSize);
+}
