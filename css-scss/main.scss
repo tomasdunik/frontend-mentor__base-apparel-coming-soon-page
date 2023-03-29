@@ -1,1 +1,102 @@
 @import "./partials/variables", "./partials/functions", "./partials/mixins";
+
+.main {
+  min-height: rem(310, 16);
+  margin: rem(64, 16) rem(32, 16) rem(92, 16) rem(32, 16);
+  width: rem(311, 16);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading {
+  color: $color-neutral-dark-grayish-red;
+  font-size: rem(40, 16);
+  font-weight: 600;
+  letter-spacing: rem(10.83, 16);
+  line-height: lineHeight(42, 40);
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.light {
+  color: $color-primary-desatured-red;
+  font-weight: 300;
+}
+
+.text {
+  color: $color-primary-desatured-red;
+  font-size: rem(14, 16);
+  font-weight: 400;
+  line-height: lineHeight(22, 14);
+  text-align: center;
+}
+
+.formmm {
+  height: rem(48, 16);
+  width: rem(311, 16);
+  border-radius: 28px;
+  border: 1px solid $color-primary-desatured-red;
+  background-color: transparent;
+  position: relative;
+}
+
+.email {
+  height: rem(48, 16);
+  width: rem(170, 16);
+  border: none;
+  background-color: transparent;
+  margin-left: 30px;
+  outline: none;
+}
+
+.email::placeholder {
+  color: $color-primary-desatured-red;
+  font-size: rem(14, 16);
+  line-height: lineHeight(28, 16);
+}
+
+.error-message {
+  color: $color-primary-soft-red;
+  font-size: rem(13, 16);
+  margin-top: 0.5rem;
+  margin-left: 1.8rem;
+}
+
+.error-border {
+  border: 2px solid $color-primary-soft-red;
+}
+
+.error-icon {
+  position: absolute;
+  top: 10px;
+  right: 72px;
+  display: none;
+}
+
+.show-error {
+  display: block;
+}
+
+.button {
+  cursor: pointer;
+  height: rem(50, 16);
+  width: rem(66, 16);
+  background: linear-gradient(
+    -45deg,
+    $color-gradient-sea-pink,
+    $color-gradient-mandys-pink
+  );
+  border: none;
+  border-radius: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25),
+    0 15px 20px rgba(198, 110, 110, 0.25);
+  position: absolute;
+  top: rem(-2.5, 16);
+  right: rem(-2.5, 16);
+  color: rgb(198, 110, 110);
+}

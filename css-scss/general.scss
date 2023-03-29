@@ -2,17 +2,36 @@
 
 * {
   box-sizing: border-box;
-  // color: $color-neutral-very-dark-blue;
   font-family: "Josefin Sans", sans-serif;
   margin: 0;
   padding: 0;
 }
 
 body {
-  // background-color: $color-neutral-very-light-grey;
+  background: linear-gradient(
+    -45deg,
+    $color-gradient-chablis,
+    $color-gradient-white
+  );
   display: grid;
   justify-items: center;
   place-content: center;
 }
 
-// ==================== Additional ====================
+.container {
+  width: 100vw;
+  height: 100vh;
+  // min-height: rem(800, 16);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  margin: rem(31, 16) 0 rem(32, 16) rem(32, 16);
+  width: rem(100, 16);
+}
+
+.img img {
+  width: 100%;
+}

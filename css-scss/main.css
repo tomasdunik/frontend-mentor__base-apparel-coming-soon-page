@@ -1,1 +1,101 @@
-/*# sourceMappingURL=main.css.map */
+.main {
+  min-height: 19.375rem;
+  margin: 4rem 2rem 5.75rem 2rem;
+  width: 19.4375rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.heading {
+  color: #413a3a;
+  font-size: 2.5rem;
+  font-weight: 600;
+  letter-spacing: 0.676875rem;
+  line-height: 1.05;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.light {
+  color: #ce9797;
+  font-weight: 300;
+}
+
+.text {
+  color: #ce9797;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.5714285714;
+  text-align: center;
+}
+
+.formmm {
+  height: 3rem;
+  width: 19.4375rem;
+  border-radius: 28px;
+  border: 1px solid #ce9797;
+  background-color: transparent;
+  position: relative;
+}
+
+.email {
+  height: 3rem;
+  width: 10.625rem;
+  border: none;
+  background-color: transparent;
+  margin-left: 30px;
+  outline: none;
+}
+
+.email::-moz-placeholder {
+  color: #ce9797;
+  font-size: 0.875rem;
+  line-height: 1.75;
+}
+
+.email::placeholder {
+  color: #ce9797;
+  font-size: 0.875rem;
+  line-height: 1.75;
+}
+
+.error-message {
+  color: #f96262;
+  font-size: 0.8125rem;
+  margin-top: 0.5rem;
+  margin-left: 1.8rem;
+}
+
+.error-border {
+  border: 2px solid #f96262;
+}
+
+.error-icon {
+  position: absolute;
+  top: 10px;
+  right: 72px;
+  display: none;
+}
+
+.show-error {
+  display: block;
+}
+
+.button {
+  cursor: pointer;
+  height: 3.125rem;
+  width: 4.125rem;
+  background: linear-gradient(-45deg, #ee8c8c, #f8bfbf);
+  border: none;
+  border-radius: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25), 0 15px 20px rgba(198, 110, 110, 0.25);
+  position: absolute;
+  top: -0.15625rem;
+  right: -0.15625rem;
+  color: rgb(198, 110, 110);
+}/*# sourceMappingURL=main.css.map */
