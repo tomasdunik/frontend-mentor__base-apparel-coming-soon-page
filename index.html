@@ -44,12 +44,13 @@
           launch deals.
         </p>
 
-        <form id="form" class="formmm">
+        <form id="form" class="form" onsubmit="return validateForm()">
           <input
             type="email"
             placeholder="Email Address"
             id="email"
             class="email"
+            name="email"
           />
           <p id="error-message" class="error-message"></p>
           <img
