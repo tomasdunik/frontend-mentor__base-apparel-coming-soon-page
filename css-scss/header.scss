@@ -1,1 +1,41 @@
-@import "./partials/variables", "./partials/functions", "./partials/mixins";
+@import "./partials/variables", "./partials/functions";
+
+.logo {
+  margin: rem(31, 16) 0 rem(32, 16) rem(32, 16);
+  width: rem(100, 16);
+}
+
+.img img {
+  height: auto;
+  width: 100%;
+}
+
+// ====================================================
+// ================= RESPONSIVE 1230px ================
+// ====================================================
+
+@media (min-width: 1230px) {
+  .header {
+    order: 1;
+  }
+
+  .logo {
+    left: 0;
+    margin: rem(66, 16) 0 rem(137, 16) rem(165, 16);
+    position: absolute;
+    top: 0;
+    width: rem(158, 16);
+  }
+
+  .img {
+    width: 100px;
+  }
+
+  .img img {
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: rem(610, 16);
+  }
+}

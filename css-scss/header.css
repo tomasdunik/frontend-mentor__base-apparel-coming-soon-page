@@ -1,1 +1,32 @@
-/*# sourceMappingURL=header.css.map */
+.logo {
+  margin: 1.9375rem 0 2rem 2rem;
+  width: 6.25rem;
+}
+
+.img img {
+  height: auto;
+  width: 100%;
+}
+
+@media (min-width: 1230px) {
+  .header {
+    order: 1;
+  }
+  .logo {
+    left: 0;
+    margin: 4.125rem 0 8.5625rem 10.3125rem;
+    position: absolute;
+    top: 0;
+    width: 9.875rem;
+  }
+  .img {
+    width: 100px;
+  }
+  .img img {
+    height: auto;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 38.125rem;
+  }
+}/*# sourceMappingURL=header.css.map */

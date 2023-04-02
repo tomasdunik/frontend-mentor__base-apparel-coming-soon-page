@@ -29,25 +29,34 @@
   <body>
     <div class="container">
       <!-- ==================== Header ==================== -->
-      <header>
-        <img class="logo" src="./images/logo.svg" alt="logo Base Apparel" />
-        <div class="img">
-          <img src="./images/hero-mobile.jpg" alt="" />
-        </div>
+      <header class="header">
+        <a
+          href="https://tomasdunik.github.io/frontend-mentor__meet-landing-page/"
+        >
+          <img class="logo" src="./images/logo.svg" alt="logo Base Apparel"
+        /></a>
+        <picture class="img">
+          <source
+            srcset="./images/hero-mobile.jpg"
+            media="(max-width: 1229px)"
+          />
+          <img src="./images/hero-desktop.jpg" alt="Base Apparel employee" />
+        </picture>
       </header>
+
       <!-- ==================== Main ==================== -->
       <main class="main">
-        <h1 class="heading"><span class="light">We're</span> coming soon</h1>
+        <h1 class="heading"><span class="light">Otvárame</span> už čoskoro</h1>
         <p class="text">
-          Hello fellow shoppers! We're currently building our new fashion store.
-          Add your email below to stay up-to-date with announcements and our
-          launch deals.
+          Vážení zákazníci! Momentálne budujeme náš nový obchod s módou. Ak máte
+          záujem dostávať novinky o našom obchode, prihláste sa nba odber
+          noviniek.
         </p>
 
         <form id="form" class="form" onsubmit="return validateForm()">
           <input
             type="email"
-            placeholder="Email Address"
+            placeholder="E-mailová adresa"
             id="email"
             class="email"
             name="email"
@@ -57,10 +66,10 @@
             id="error-icon"
             class="error-icon"
             src="./images/icon-error.svg"
-            alt=""
+            alt="error icon"
           />
           <button id="button" class="button" type="submit">
-            <img src="./images/icon-arrow.svg" alt="icon arrow" />
+            <img src="./images/icon-arrow.svg" alt="arrow icon" />
           </button>
         </form>
       </main>
