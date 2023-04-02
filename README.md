@@ -24,10 +24,8 @@ Po kliknutí na logo sa zobrazí môj predchádzajúci projekt zo stránky [Fron
 - CSS
 - SCSS
 - JavaScript
-
-- ChatGPT
-
 - Mobile First
+- ChatGPT
 
 <br/>
 
