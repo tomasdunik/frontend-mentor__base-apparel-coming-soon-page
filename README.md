@@ -16,8 +16,6 @@ Po kliknutí na logo sa zobrazí môj predchádzajúci projekt zo stránky [Fron
 
 <br/>
 
----
-
 ## 🛠️ Vytvorené s
 
 - HTML
@@ -28,8 +26,6 @@ Po kliknutí na logo sa zobrazí môj predchádzajúci projekt zo stránky [Fron
 - ChatGPT
 
 <br/>
-
----
 
 ## 📸 Screenshots
 
@@ -42,8 +38,6 @@ Po kliknutí na logo sa zobrazí môj predchádzajúci projekt zo stránky [Fron
 ![](./images/screenshot-mobil.png)
 
 <br/>
-
----
 
 ## 🔗 Projekty Frontend Mentor
 
