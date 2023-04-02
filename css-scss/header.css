@@ -14,13 +14,10 @@
   }
   .logo {
     left: 0;
-    margin: 4.125rem 0 8.5625rem 10.3125rem;
+    margin: 4.125rem 0 8.5625rem 0;
     position: absolute;
     top: 0;
     width: 9.875rem;
-  }
-  .img {
-    width: 100px;
   }
   .img img {
     height: auto;

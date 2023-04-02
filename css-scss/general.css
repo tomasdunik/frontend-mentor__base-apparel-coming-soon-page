@@ -10,6 +10,8 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   display: grid;
+  justify-content: center;
+  align-items: center;
 }
 
 .container {
@@ -18,6 +20,7 @@ body {
   flex-direction: column;
   height: 100vh;
   width: 100vw;
+  position: relative;
 }
 
 .light {
@@ -28,8 +31,12 @@ body {
 @media (min-width: 1230px) {
   body {
     background-image: url(../images/bg-pattern-desktop.svg);
+    display: flex;
   }
   .container {
     flex-direction: row;
+    height: 50rem;
+    margin-top: 4rem;
+    width: 83.75rem;
   }
 }/*# sourceMappingURL=general.css.map */

@@ -41,9 +41,9 @@
   background-color: transparent;
   border: none;
   color: $color-neutral-dark-grayish-red;
-  font-size: 14px;
+  font-size: rem(14, 16);
   height: rem(48, 16);
-  margin-left: 30px;
+  margin-left: rem(30, 16);
   outline: none;
   width: rem(170, 16);
 }
@@ -68,8 +68,8 @@
 .error-icon {
   display: none;
   position: absolute;
-  right: 72px;
-  top: 10px;
+  right: rem(72, 16);
+  top: rem(10, 16);
 }
 
 .show-error {
@@ -107,7 +107,7 @@
 
 @media (min-width: 1230px) {
   .main {
-    margin: rem(233, 16) rem(234, 16) rem(162, 16) rem(162, 16);
+    margin: rem(233, 16) rem(134, 16) rem(162, 16) 0;
     min-height: rem(414, 16);
     order: 0;
     width: rem(445, 16);
@@ -135,9 +135,9 @@
   .email {
     border: none;
     color: $color-neutral-dark-grayish-red;
-    font-size: 16px;
+    font-size: rem(16, 16);
     height: rem(56, 16);
-    margin-left: 35px;
+    margin-left: rem(35, 16);
     width: rem(260, 16);
   }
 
@@ -156,8 +156,8 @@
   .error-icon {
     display: none;
     position: absolute;
-    right: 110px;
-    top: 14px;
+    right: rem(110, 16);
+    top: rem(14, 16);
   }
   .show-error {
     display: block;

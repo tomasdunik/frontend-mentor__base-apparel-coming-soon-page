@@ -21,14 +21,10 @@
 
   .logo {
     left: 0;
-    margin: rem(66, 16) 0 rem(137, 16) rem(165, 16);
+    margin: rem(66, 16) 0 rem(137, 16) 0;
     position: absolute;
     top: 0;
     width: rem(158, 16);
-  }
-
-  .img {
-    width: 100px;
   }
 
   .img img {

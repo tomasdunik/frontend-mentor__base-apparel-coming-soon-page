@@ -39,9 +39,9 @@
   background-color: transparent;
   border: none;
   color: #413a3a;
-  font-size: 14px;
+  font-size: 0.875rem;
   height: 3rem;
-  margin-left: 30px;
+  margin-left: 1.875rem;
   outline: none;
   width: 10.625rem;
 }
@@ -72,8 +72,8 @@
 .error-icon {
   display: none;
   position: absolute;
-  right: 72px;
-  top: 10px;
+  right: 4.5rem;
+  top: 0.625rem;
 }
 
 .show-error {
@@ -103,7 +103,7 @@
 
 @media (min-width: 1230px) {
   .main {
-    margin: 14.5625rem 14.625rem 10.125rem 10.125rem;
+    margin: 14.5625rem 8.375rem 10.125rem 0;
     min-height: 25.875rem;
     order: 0;
     width: 27.8125rem;
@@ -127,9 +127,9 @@
   .email {
     border: none;
     color: #413a3a;
-    font-size: 16px;
+    font-size: 1rem;
     height: 3.5rem;
-    margin-left: 35px;
+    margin-left: 2.1875rem;
     width: 16.25rem;
   }
   .email::-moz-placeholder {
@@ -147,8 +147,8 @@
   .error-icon {
     display: none;
     position: absolute;
-    right: 110px;
-    top: 14px;
+    right: 6.875rem;
+    top: 0.875rem;
   }
   .show-error {
     display: block;
